@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Kanit';
+  src: url('https://fonts.gstatic.com/s/kanit/v10/fontfile.woff2')
+    format('woff2');
+  font-display: swap;
+}
+body {
+  font-family: 'Kanit', sans-serif;
+}

@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.prose p {
+  @apply m-0;
+  @apply text-lg;
+}
+
+.ql-size-small {
+  @apply text-xs;
+}
+
+.ql-size-large {
+  @apply text-2xl;
+}
+
+.ql-size-huge {
+  @apply text-4xl;
+}
+
+.ql-align-center {
+  @apply text-center !important;
+}
+
+.ql-align-right {
+  @apply text-right !important;
+}
+
+.ql-align-center img {
+  @apply mx-auto block; /* ทำให้รูปอยู่กลาง */
+}
+
+.ql-align-right img {
+  @apply float-right;
+}
+
+.ql-indent-1 {
+  @apply pl-9;
+}
+
+.ql-indent-2 {
+  @apply pl-20;
+}
+
+.ql-indent-3 {
+  @apply pl-28;
+}
+
+.ql-indent-4 {
+  @apply pl-40;
+}
+
+.ql-indent-5 {
+  @apply pl-48;
+}
+
+.ql-indent-6 {
+  @apply pl-60;
+}
+
+.ql-indent-7 {
+  @apply pl-72;
+}
+
+.ql-indent-8 {
+  @apply pl-80;
+}
+
+::-webkit-scrollbar {
+  width: 8px; /* ความกว้างของ scrollbar */
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.1); /* สีพื้นหลังของ track */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.4); /* สีของ thumb */
+  border-radius: 5px; /* ความโค้งของ thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.6); /* สีของ thumb เมื่อ hover */
+}
