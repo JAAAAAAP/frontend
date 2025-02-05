@@ -42,14 +42,14 @@ export default function Navbar() {
                         หน้าแรก
                     </NavLink>
 
-                    <NavLink
+                    {/* <NavLink
                         to="/about"
                         className={({ isActive }) =>
                             `hidden lg:block ${isActive ? 'text-yellow-500 font-bold' : ''}`
                         }
                     >
                         เกี่ยวกับเรา
-                    </NavLink>
+                    </NavLink> */}
 
                     <NavLink
                         to="/games"

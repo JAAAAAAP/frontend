@@ -22,6 +22,7 @@ import Dashboard from './page/Dashboard/Dashboard.jsx'
 import Editgame from './page/Editgame.jsx';
 import Usermanagement from './page/Dashboard/Usermanagement.jsx';
 import CategoriesManagement from './page/Dashboard/CategoriesManagement.jsx';
+import Gamemanagement from './page/Dashboard/Gamemanagement.jsx';
 
 
 
@@ -100,7 +101,13 @@ function App() {
                                     <Usermanagement />
                                 </ProtectedRoute>}
                             />
-                            
+
+                            <Route path="/gamemanagement" element={
+                                <ProtectedRoute requiredRole="admin">
+                                    <Gamemanagement />
+                                </ProtectedRoute>}
+                            />
+
                             <Route path="/CategoriesManagement" element={
                                 <ProtectedRoute requiredRole="admin">
                                     <CategoriesManagement />

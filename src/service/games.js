@@ -120,4 +120,13 @@ export const downloadGameCount = async (id) => {
     }
 }
 
+export const getGameStat = async () => {
+    try {
+        const response = await api.get(`V1/gamestat`);
+        return response.data;
+    } catch (error) {
+        throw error;
+    }
+}
+
 

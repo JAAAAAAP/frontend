@@ -1,5 +1,5 @@
 import { useState, useRef } from "react"
-import { games, newestGames, mostDownloadGames, mostRatingGames, getgame, uploadGame, updateGame, deleteGame, downloadGameCount } from "../service/games"
+import { games, newestGames, mostDownloadGames, mostRatingGames, getgame, uploadGame, updateGame, deleteGame, downloadGameCount, getGameStat } from "../service/games"
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query'
 import { toast } from 'react-toastify'
 
@@ -231,4 +231,8 @@ export const useDownloadGameCount = () => {
     })
 
     return { ...mutation }
+}
+
+export const useGetGamestat = () => {
+
 }

@@ -120,7 +120,7 @@ export default function SearchComponent() {
             )}
 
             {/* แสดงผลผู้ใช้ */}
-            {users.length > 0 && (
+            {/* {users.length > 0 && (
               <div>
                 <div className="flex justify-between items-center font-medium border-b border-t">
                   <p className="px-2 py-1 text-[12px] md:text-base">ผู้ใช้</p>
@@ -149,7 +149,7 @@ export default function SearchComponent() {
                   ))}
                 </div>
               </div>
-            )}
+            )} */}
 
             {/* ไม่มีคำแนะนำ */}
             {games.length === 0 && users.length === 0 && (

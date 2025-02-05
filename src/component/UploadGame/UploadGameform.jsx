@@ -243,12 +243,12 @@ function UploadGameform() {
                                 <h1>อัปโหลดไฟล์สำหรับเว็บ</h1>
                                 <span className='font-normal text-base text-gray-500'> (รองรับ Godot,Unity,JavascriptGame)</span>
                             </label>
-                            <Link>
+                            {/* <Link>
                                 <div className='flex items-center text-sky-300 fill-sky-300'>
                                     <box-icon name='info-circle'></box-icon>
                                     <span>วิธีอัพโหลดเกมขึ้นเว็บ</span>
                                 </div>
-                            </Link>
+                            </Link> */}
                         </div>
                         <input
                             type="file"

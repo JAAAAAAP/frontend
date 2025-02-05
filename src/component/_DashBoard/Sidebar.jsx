@@ -75,13 +75,17 @@ function Sidebar({ toggleSidebar }) {
                             )}
                         </NavLink>
 
-                        <div className={`flex items-end duration-150 fill-white gap-2 rounded-md hover:bg-yellow-300 ${isOpen ? 'justify-start' : 'justify-center'}`}>
+
+                        {/* <NavLink to="/gamemanagement"
+                            className={({ isActive }) => `flex items-end duration-150 fill-white gap-2 rounded-md hover:bg-yellow-300 
+                            ${isOpen ? 'justify-start' : 'justify-center'} ${isActive ? 'bg-yellow-300 ' : ''}`}
+                        >
                             <box-icon name='joystick' size="md" />
                             {isOpen && (
                                 <span className='text-xl line-clamp-1'>จัดการเกม</span>
                             )}
-                        </div>
-
+                        </NavLink> */}
+                        
                         <NavLink to="/CategoriesManagement"
                             className={({ isActive }) => `flex items-end duration-150 fill-white gap-2 rounded-md hover:bg-yellow-300 
                             ${isOpen ? 'justify-start' : 'justify-center'} ${isActive ? 'bg-yellow-300 ' : ''}`}
